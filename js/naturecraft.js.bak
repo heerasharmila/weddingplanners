@@ -1,0 +1,39 @@
+	const scrollBtn = document.getElementById('scrollTopBtn');
+
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 100) {
+      scrollBtn.style.display = 'flex';
+    } else {
+      scrollBtn.style.display = 'none';
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+$(document).ready(function () {
+
+   AOS.init({
+      duration: 1000 // Only animate once
+   });
+  
+   $('.dropdown').hover(
+      function () {
+         $(this).find('.custom-arrow').html('▲');
+      },
+      function () {
+         $(this).find('.custom-arrow').html('▼');
+      }
+   );
+
+
+});
+
+function scrollToSection() {
+	
+   document.getElementById("about").scrollIntoView({
+      behavior: 'smooth'
+   });
+}
+
