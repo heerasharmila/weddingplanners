@@ -1,0 +1,153 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header {
+	background-image: linear-gradient(#F0E3FF, #ffffff);
+	}
+
+.menutxt {
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+.menutxt:hover{
+	color:#c50b9b;
+	
+	
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+}
+.dropdown-item:hover {
+	background-color: #F0E3FF;
+	font-size: 19px;
+
+}
+ .video-container {
+      position: relative;
+      width: 100%;
+      height: 700px;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* dark overlay */
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+	.card-img, .card-img-top{
+	border:3px solid black;
+}
+
+
+.zoom-out-hover {
+	transition: transform 0.3s ease;
+}
+
+.zoom-out-hover:hover {
+	transform: scale(0.9);
+}
+
+.abthead {
+	padding-top: 5rem;
+}
+
+.abouttxt {
+	text-align: justify;
+}
+
+.cardtxt {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.carousel-control-prev-icon {
+	background-color: black;
+	border-radius: 50px;
+}
+
+.carousel-control-next-icon {
+	background-color: black;
+	border-radius: 50px;
+}
+
+.blogimg {
+	border: 5px solid white;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+.client-logo {
+	border: 5px solid white;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+.contact-form {
+	background-color: #F0E3FF;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: #7e4d73;
+}
+ .scroll-arrow-up {
+
+	font-size: 2rem;
+	color: black;
+}
+ #scrollTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #6c1987;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 9999;
+      display: none; 
+    }
+
+ 
